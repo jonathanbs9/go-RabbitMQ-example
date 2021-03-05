@@ -9,3 +9,19 @@
 ## Advantages:
 
 ![image](https://user-images.githubusercontent.com/32901911/110123294-8041cc80-7d9f-11eb-83f3-f5f4f725df84.png)
+
+
+
+### Steps
+1- Instance of rabbitMQ with docker
+
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+2- Enter RabbitMQ.  In web browser: 
+
+localhost:15672
+username: guest
+password: guest
+
+
+
