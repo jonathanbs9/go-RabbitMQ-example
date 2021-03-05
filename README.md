@@ -23,5 +23,6 @@ localhost:15672
 username: guest
 password: guest
 
+![image](https://user-images.githubusercontent.com/32901911/110125101-b6804b80-7da1-11eb-804b-7be418982ec2.png)
 
 
