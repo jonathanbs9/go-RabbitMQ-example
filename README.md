@@ -14,9 +14,9 @@
 
 ### Steps
 1- Instance of rabbitMQ with docker
-
+```
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
-
+```
 2- Enter RabbitMQ.  In web browser: 
 
 localhost:15672
@@ -29,14 +29,16 @@ password: guest
 ## Test messages
 
 * Publish message
+```
 > go  run main.go
-
+```
 ![image](https://user-images.githubusercontent.com/32901911/110133704-5e4e4700-7dab-11eb-985a-01a81497af34.png)
 
 
 * Consume message
+```
 > go run consumer.go
- 
+``` 
 ![image](https://user-images.githubusercontent.com/32901911/110133780-7920bb80-7dab-11eb-8e8a-78f820a9be01.png)
 
 
