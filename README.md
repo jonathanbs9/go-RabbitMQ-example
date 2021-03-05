@@ -26,3 +26,19 @@ password: guest
 ![image](https://user-images.githubusercontent.com/32901911/110125101-b6804b80-7da1-11eb-804b-7be418982ec2.png)
 
 
+## Test messages
+
+* Publish message
+> go  run main.go
+
+![image](https://user-images.githubusercontent.com/32901911/110133704-5e4e4700-7dab-11eb-985a-01a81497af34.png)
+
+
+* Consume message
+> go run consumer.go
+ 
+![image](https://user-images.githubusercontent.com/32901911/110133780-7920bb80-7dab-11eb-8e8a-78f820a9be01.png)
+
+
+Every time we want to publish a message, you have to run main.go. 
+If Consumer is listening, will hear the messages, and print them. If there are no messages on queue, will display  [*] Esperando por mensajes ... 
