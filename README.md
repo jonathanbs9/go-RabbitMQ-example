@@ -1,5 +1,9 @@
 # go-RabbitMQ-example
 
+## RabbitMQ
+RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
+
+
 ![image](https://user-images.githubusercontent.com/32901911/110122792-cea29b80-7d9e-11eb-835e-5ab05195fee2.png)
 
 ## Why use message broker?
